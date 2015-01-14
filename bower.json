@@ -1,0 +1,17 @@
+{
+  "name": "npmxbower",
+  "version": "1.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  },
+  "preen": {
+    "jquery": ["dist/*.min.js"],
+    "bootstrap": ["dist/**/*", "less/**"]
+  }
+}

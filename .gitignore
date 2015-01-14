@@ -1,0 +1,45 @@
+#gitignore
+
+# Numerous always-ignore extensions
+*~
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*.seed
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.sublime-project
+.sublime-workspace
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+.idea
+.ssh
+.grunt
+.sass-cache
+.vagrant
+.vagrant.d
+node_modules
+components
+bower_components
+bower

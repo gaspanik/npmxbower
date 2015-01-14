@@ -1,0 +1,13 @@
+{
+  "name": "npmxbower",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "bower install; preen;",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "komori",
+  "license": "MIT",
+  "devDependencies": {
+    "preen": "^1.1.3"
+  }
+}
